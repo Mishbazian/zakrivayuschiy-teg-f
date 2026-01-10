@@ -35,31 +35,26 @@
 }
 
 .button_has-icon {
+  max-width: 81.56%;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  align-content: center;
+  justify-content: center;
   gap: 8px;
   padding-block: 15px;
-  padding-inline: 20px;
-
-  @media (width <= 375px) {
-    flex-direction: column;
-  }
+  padding-inline: 18px;
 }
 
 .button__icon {
-  width: 21px;
-  height: 21px;
+  width: 1.5em;
+  height: 1.5em;
 
-  @media (width <= 375px) {
-    width: 28px;
-    height: 28px;
+  @media (width <= 376px) {
+    width: 2em;
+    height: 2em;
   }
 }
 
-.button__text {
-
-}
 
 
 :is(.button__text, .button__icon) {

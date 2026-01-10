@@ -11,7 +11,7 @@
 
   font-family: var(--text-font), Arial, ui-sans-serif;
   font-size: var(--text-size, 18px);
-  font-variation-settings: 'wght' var(--text-wght);
+  font-variation-settings: 'wght' var(--text-wght, 410);
   color: var(--text-color, #000);
 }
 
