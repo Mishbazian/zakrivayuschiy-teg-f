@@ -1,0 +1,68 @@
+.button {
+  position: relative;
+
+  padding-inline: 17px;
+  padding-block: 9px;
+
+  background-color: var(--text-bg-color, #fff);
+  border-width: var(--main-border-width, 2px);
+
+  font-size: var(--accent-font-size, #000);
+  font-family: var(--accent-font), monospace;
+
+
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: var(--hover-bg-color, #000);
+    transition: transform 0.5s ease-in-out;
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: 2px 2px 0 var(--accent-color, #000);
+  }
+
+  &:hover::before {
+    transform: scaleX(1);
+  }
+}
+
+.button_has-icon {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 8px;
+  padding-block: 15px;
+  padding-inline: 20px;
+
+  @media (width <= 375px) {
+    flex-direction: column;
+  }
+}
+
+.button__icon {
+  width: 21px;
+  height: 21px;
+
+  @media (width <= 375px) {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+.button__text {
+
+}
+
+
+:is(.button__text, .button__icon) {
+  mix-blend-mode: difference;
+  color: var(--text-bg-color, #fff);
+}

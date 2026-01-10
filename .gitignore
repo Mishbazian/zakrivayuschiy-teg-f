@@ -1,0 +1,11 @@
+node_modules/
+
+# Файлы линтеров
+
+package.json
+package-lock.json
+.prettierrc
+stylelint.config.js
+
+#файлы ide
+.vscode

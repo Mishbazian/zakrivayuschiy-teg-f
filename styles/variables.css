@@ -1,1 +1,45 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  
+  --c-black: #000;
+  --c-white: #fff;
+  --c-red: #f00;
+
+
+  --text-bg-color: var(--c-white);
+  --hover-bg-color: var(--c-black);
+
+  /*Шрифты и другие настройки текста*/
+  /*основной текст*/
+  --text-font: 'Inter';
+  --text-size: 1.125rem;
+  --text-color: var(--c-black);
+  --text-wght: 410;
+  --heading-wght: 715;
+
+
+  /*Декоративный текст: обложка, кнопки, диалоги*/
+  --accent-font: 'Press Start 2P';
+  --accent-font-size: 0.875rem; /*14px*/
+  --accent-color: var(--c-black);
+
+  --main-border-width: 2px;
+
+  /*резиновые размеры*/
+  --section-width: min(700px, 100vw);
+  --logo-size: clamp(3.0625rem, 1.9087rem + 4.9231vw, 4.0625rem);
+  --header-title-size: clamp(0.875rem, 0.226rem + 2.7692vw, 1.4375rem);
+
+  /*Отступы*/
+  --section-margin: 6.25rem; /*100px*/
+  --content-gap: 3.125rem; /*50px*/
+  --content-list-gap: 3.125rem;
+  --card-padding: 1.5625rem; /*25px*/
+  --card-gap: 1.5625rem; /*25px*/
+
+  /*иконка сердечко*/
+  --contour-color: var(--c-black);
+  --sparks-color: var(--c-red);
+  --animation-fill-color: var(--c-red);
+}

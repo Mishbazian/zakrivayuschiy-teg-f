@@ -1,0 +1,12 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--content-gap, 50px);
+  align-items: center;
+}
+
+.content__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--content-list-gap, 50px);
+}
