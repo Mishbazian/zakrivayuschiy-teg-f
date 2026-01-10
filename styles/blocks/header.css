@@ -1,10 +1,12 @@
 .header {
-  padding-block: 8.125rem;
+  /* padding-block: 8.125rem; */
+  block-size: var(--header-height);
   border: var(--main-border-width, 2px) solid currentColor;
   background-color: var(--text-bg-color, #fff);
 
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   gap: 1.25rem;
 

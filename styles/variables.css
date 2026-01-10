@@ -27,7 +27,8 @@
   --main-border-width: 2px;
 
   /*резиновые размеры*/
-  --section-width: min(700px, 100vw);
+  --section-width: min(700px, 100%);
+  --header-height: clamp(327px, 279.69px + 12.61538vw, 368px);
   --logo-size: clamp(3.0625rem, 1.9087rem + 4.9231vw, 4.0625rem);
   --header-title-size: clamp(0.875rem, 0.226rem + 2.7692vw, 1.4375rem);
 
