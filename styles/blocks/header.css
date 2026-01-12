@@ -1,5 +1,5 @@
 .header {
-  block-size: var(--header-height);
+  min-block-size: var(--header-height);
   border: var(--main-border-width, 2px) solid currentColor;
   background-color: var(--text-bg-color, #fff);
 
