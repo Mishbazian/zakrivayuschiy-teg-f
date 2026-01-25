@@ -38,6 +38,7 @@
   --content-list-gap: 3.125rem;
   --card-padding: 1.5625rem; /*25px*/
   --card-gap: 1.5625rem; /*25px*/
+  --header-block-padding: 1.6875rem; /*27px*/
 
   /*иконка сердечко*/
   --contour-color: var(--c-black);
