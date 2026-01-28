@@ -17,7 +17,6 @@
   position: relative;
   border-block: var(--main-border-width) solid;
   height: var(--section-width);
-  background-color: #000;
 }
 
 .card__media-caption {
