@@ -43,8 +43,8 @@
 }
 
 .card__media-attribution {
-  background-color: rgb(255 255 255);
-  color: #000;
+  background-color: rgb(0 0 0/0.5);
+  color: #fff;
   position: absolute;
   inline-size: 100%;
   bottom: 0;
