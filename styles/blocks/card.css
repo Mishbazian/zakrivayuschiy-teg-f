@@ -43,11 +43,13 @@
 }
 
 .card__media-attribution {
-  background-color: #fff;
+  background-color: rgb(255 255 255);
   color: #000;
   position: absolute;
+  inline-size: 100%;
   bottom: 0;
-  right: 0;
+  text-align: right;
+
 }
 
 .card__img {
