@@ -10,7 +10,6 @@
   font-size: var(--accent-font-size, #000);
   font-family: var(--accent-font), monospace;
 
-
   cursor: pointer;
   transition: box-shadow 0.3s ease;
 
@@ -35,7 +34,7 @@
 }
 
 .button_has-icon {
-  max-width: 81.56%;
+  max-inline-size: 81.56%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -49,13 +48,11 @@
   width: 1.5em;
   height: 1.5em;
 
-  @media (width <= 376px) {
+  @media (width <= 375px) {
     width: 2em;
     height: 2em;
   }
 }
-
-
 
 :is(.button__text, .button__icon) {
   mix-blend-mode: difference;

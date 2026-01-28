@@ -60,7 +60,7 @@
     }
 
     .sparks {
-      animation: sparkees 0.3s 0.3s ease-in;
+      animation: fade-in 0.3s 0.3s ease-in;
     }
 
     .heart {

@@ -8,7 +8,7 @@
   column-gap: 20px;
   row-gap: 30px;
   align-items: center;
-  max-width: min(353px, 91vi);
+  max-inline-size: min(353px, 91vi);
   border: medium solid currentColor;
 
   &::backdrop {
@@ -32,7 +32,7 @@
 .dialog__text {
   font-family: var(--accent-font), monospace;
   line-height: 150%;
-  font-size: 14px;
+  font-size: var(--accent-font-size, 14px);
   text-transform: uppercase;
 }
 

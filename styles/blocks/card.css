@@ -16,6 +16,8 @@
 .card__media {
   position: relative;
   border-block: var(--main-border-width) solid;
+  height: var(--section-width);
+  background-color: #000;
 }
 
 .card__media-caption {
@@ -28,7 +30,7 @@
   font-size: var(--accent-font-size, 14px);
   text-transform: uppercase;
   color: var(--accent-color, #000);
-  opacity: 50%;
+  opacity: 0.5;
   mix-blend-mode: hard-light;
   text-shadow:  /*фолбэк для text-stroke*/
     1px 1px #fff,
@@ -41,13 +43,21 @@
   }
 }
 
+.card__media-attribution {
+  background-color: #fff;
+  color: #000;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 .card__img {
   display: block;
   width: 100%;
-  aspect-ratio: 1/1;
+  height: 100%;
 
   object-fit: cover;
-  object-position: center;
+  object-position: top;
 }
 
 .card__description {
@@ -57,7 +67,6 @@
   display: flex;
   flex-direction: column;
   gap: var(--card-gap, 25px);
-
 }
 
 .card__text {
@@ -99,31 +108,37 @@
   min-inline-size: 130px;
 }
 
-.card__img_workplace {
-  filter: brightness(0.2);
+/*Фильтры для картинок*/
+
+.card__img_jungle-bridge {
+  filter: grayscale(0.9) saturate(37) brightness(0.5);
 }
 
-.card__img_moonlight{
-  filter: contrast(2) sepia(0.9) ;
+.card__img_gorilla-in-leafs {
+  filter: hue-rotate(282deg) saturate(2) brightness(0.5);
 }
 
-.card__img_hulc {
-  filter: hue-rotate(45deg);
+.card__img_little-monkey {
+  filter: contrast(3.5);
 }
 
-.card__img_duck {
-  filter: saturate(10);
+.card__img_trafaret {
+  filter: brightness(0.5);
 }
 
-.card__img_gekko {
-  filter: contrast(2);
+.card__img_frogs {
+  filter: saturate(1.5) brightness(0.5);
 }
 
-.card__img_old-photo {
-  filter: grayscale(1);
+.card__img_nail {
+  filter: sepia(0.8) saturate(11.5) brightness(0.5);
 }
 
-.card__img_penguin {
-  filter: invert(1);
+.card__img_orangutang {
+  filter: brightness(0.5) contrast(1.5);
 }
 
+.card__img_sad-gorilla {
+  filter: blur(3px) sepia(1) contrast(3.5) saturate(22.5) hue-rotate(200deg)
+    brightness(0.5);
+}
