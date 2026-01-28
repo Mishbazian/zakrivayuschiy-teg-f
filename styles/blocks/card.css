@@ -10,7 +10,7 @@
   padding-block: 4px;
 
   font-size: inherit;
-  font-variation-settings: 'wght' var(--heading-wght);
+  font-variation-settings: 'wght' var(--heading-wght, 715);
 }
 
 .card__media {
