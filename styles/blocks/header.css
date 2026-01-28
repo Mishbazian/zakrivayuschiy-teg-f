@@ -10,7 +10,7 @@
   align-items: center;
   gap: 1.25rem;
 
-  font-family: var(--accent-font), monospace;
+  font-family: var(--accent-font), fantasy;
 }
 
 .header__logo {
