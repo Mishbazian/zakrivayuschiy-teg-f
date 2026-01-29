@@ -24,39 +24,43 @@
 
     .core {
       transition: fill 0.3s linear;
-      fill: var(--contour-color);
+      fill: var(--contour-color, #000);
     }
 
     .main-body {
       transition: fill 0.3s 0.05s linear;
-      fill: var(--contour-color);
+      fill: var(--contour-color, #000);
     }
   }
 
   &:active {
 
     .core {
-      fill: var(--animation-fill-color);
+      transition: fill 0.3s linear;
+      fill: var(--animation-fill-color, #f00);
     }
 
     .main-body {
-      fill: var(--animation-fill-color);
+      transition: fill 0.3 0.05s linear;
+      fill: var(--animation-fill-color, #f00);
     }
   }
 
   &.is-liked {
 
     .core {
-      fill: var(--animation-fill-color);
+      transition: fill 0.3s linear;
+      fill: var(--animation-fill-color,#f00);
     }
 
     .main-body {
-      fill: var(--animation-fill-color);
+      transition: fill 0.3 0.05s linear;
+      fill: var(--animation-fill-color, #f00);
     }
 
     .contour {
       transition: fill 0.3s 0.06s linear;
-      fill: var(--animation-fill-color);
+      fill: var(--animation-fill-color, #f00);
     }
 
     .sparks {
