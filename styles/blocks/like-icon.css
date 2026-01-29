@@ -20,16 +20,20 @@
     opacity: 0;
   }
 
-  &:hover {
+  @media (pointer: fine) {
+    /*ховер только для мыши*/
 
-    .core {
-      transition: fill 0.3s linear;
-      fill: var(--contour-color, #000);
-    }
+    &:hover {
 
-    .main-body {
-      transition: fill 0.3s 0.05s linear;
-      fill: var(--contour-color, #000);
+      .core {
+        transition: fill 0.3s linear;
+        fill: var(--contour-color, #000);
+      }
+
+      .main-body {
+        transition: fill 0.3s 0.05s linear;
+        fill: var(--contour-color, #000);
+      }
     }
   }
 
@@ -50,7 +54,7 @@
 
     .core {
       transition: fill 0.3s linear;
-      fill: var(--animation-fill-color,#f00);
+      fill: var(--animation-fill-color, #f00);
     }
 
     .main-body {
