@@ -111,35 +111,35 @@
 
 /*Фильтры для картинок*/
 
-.card__img_jungle-bridge {
-  filter: grayscale(0.9) saturate(37) brightness(0.5);
+.card__img_vibrant-dark {
+  filter: saturate(4) brightness(0.5);
 }
 
-.card__img_gorilla-in-leafs {
-  filter: hue-rotate(282deg) saturate(2) brightness(0.5);
+.card__img_fantasy-dark {
+  filter: hue-rotate(282deg) saturate(3) brightness(0.5);
 }
 
-.card__img_little-monkey {
+.card__img_high-contrast {
   filter: contrast(3.5);
 }
 
-.card__img_trafaret {
+.card__img_dark {
   filter: brightness(0.5);
 }
 
-.card__img_frogs {
+.card__img_natural-dark {
   filter: saturate(1.5) brightness(0.5);
 }
 
-.card__img_nail {
+.card__img_amber-glow-dark {
   filter: sepia(0.8) saturate(11.5) brightness(0.5);
 }
 
-.card__img_orangutang {
+.card__vivid-relief-dark {
   filter: brightness(0.5) contrast(1.5);
 }
 
-.card__img_sad-gorilla {
+.card__img_pop-art-dark {
   filter: blur(3px) sepia(1) contrast(3.5) saturate(22.5) hue-rotate(200deg)
     brightness(0.5);
 }
