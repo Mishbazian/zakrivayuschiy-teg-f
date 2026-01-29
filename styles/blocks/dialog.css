@@ -13,7 +13,6 @@
 
   &::backdrop {
     background-color: rgb(0 0 0 / 0.75);
-    backdrop-filter: blur(7px);
   }
 
   &:not([open]) {
@@ -30,7 +29,7 @@
 }
 
 .dialog__text {
-  font-family: var(--accent-font), monospace;
+  font-family: var(--accent-font), fantasy;
   line-height: 150%;
   font-size: var(--accent-font-size, 14px);
   text-transform: uppercase;

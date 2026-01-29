@@ -8,7 +8,7 @@
   border-width: var(--main-border-width, 2px);
 
   font-size: var(--accent-font-size, #000);
-  font-family: var(--accent-font), monospace;
+  font-family: var(--accent-font), fantasy;
 
   cursor: pointer;
   transition: box-shadow 0.3s ease;
