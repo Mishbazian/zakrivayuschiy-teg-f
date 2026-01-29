@@ -25,6 +25,9 @@
 
   &:focus {
     outline: none;
+  }
+
+  &:focus-visible {
     box-shadow: 2px 2px 0 var(--accent-color, #000);
   }
 
@@ -35,6 +38,7 @@
 
 .button_has-icon {
   max-inline-size: 81.56%;
+
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -46,12 +50,9 @@
 
 .button__icon {
   width: 1.5em;
-  height: 1.5em;
-
-  @media (width <= 375px) {
-    width: 2em;
-    height: 2em;
-  }
+  max-width: 2em;
+  aspect-ratio: 1/1;
+  flex-grow: 1;
 }
 
 :is(.button__text, .button__icon) {
