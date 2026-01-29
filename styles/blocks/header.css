@@ -1,8 +1,7 @@
 .header {
-  min-block-size: var(--header-height);
   border: var(--main-border-width, 2px) solid;
   background-color: var(--text-bg-color, #fff);
-  padding-block: var(--header-block-padding, 27px);
+  padding-block: var(--header-padding-block, 130px);
 
   display: flex;
   flex-direction: column;

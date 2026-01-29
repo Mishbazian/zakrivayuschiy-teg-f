@@ -25,7 +25,7 @@
 
   /*резиновые размеры*/
   --section-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
-  --header-height: clamp(327px, 279.69px + 12.61538vw, 368px);
+  --header-padding-block: clamp(7.625rem, 7.0481rem + 2.4615vw, 8.125rem);
   --logo-size: clamp(3.0625rem, 1.9087rem + 4.9231vw, 4.0625rem);
   --header-title-size: clamp(0.875rem, 0.226rem + 2.7692vw, 1.4375rem);
 
@@ -35,7 +35,6 @@
   --content-list-gap: 3.125rem;
   --card-padding: 1.5625rem; /*25px*/
   --card-gap: 1.5625rem; /*25px*/
-  --header-block-padding: 1.6875rem; /*27px*/
 
   /*иконка сердечко*/
   --contour-color: var(--c-black);
