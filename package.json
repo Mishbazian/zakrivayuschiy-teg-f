@@ -1,0 +1,40 @@
+{
+  "name": "zakrivayuschiy-teg-f",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Mishbazian/zakrivayuschiy-teg-f#readme",
+  "bugs": {
+    "url": "https://github.com/Mishbazian/zakrivayuschiy-teg-f/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mishbazian/zakrivayuschiy-teg-f.git"
+  },
+  "license": "",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Привет!'",
+    "check": "prettier --check './**/*.{html,css,js}'",
+    "format": "prettier --write './**/*.{html,css,js}'",
+    "lint": "stylelint '**/*.css'",
+    "lintfix": "stylelint '**/*.css' --fix",
+    "checkAll": "npm run check && npm run lint",
+    "fixAll": "npm run format && npm run lintfix",
+    "build": "gulp build",
+    "dev": "gulp"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "del": "^6.0.0",
+    "gulp": "^5.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^10.0.0",
+    "postcss": "^8.5.6",
+    "postcss-nesting": "^14.0.0",
+    "prettier": "^3.7.4",
+    "stylelint": "^16.26.1"
+  }
+}
