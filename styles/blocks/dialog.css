@@ -24,8 +24,6 @@
 .dialog__icon {
   width: 39px;
   height: 39px;
-  object-fit: cover;
-  object-position: top left;
 }
 
 .dialog__text {
